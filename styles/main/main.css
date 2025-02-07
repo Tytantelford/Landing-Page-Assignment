@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(9, 27, 60);
+}
+.page-container header nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.page-container header nav .nav-label {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 85px;
+}
+.page-container header nav .nav-label i {
+  color: rgb(233, 233, 235);
+}
+.page-container header nav .nav-label i:hover {
+  font-size: 17px;
+  color: #f9ba00;
+}
+.page-container header nav .nav-label a {
+  text-decoration: none;
+  color: rgb(233, 233, 235);
+}
+.page-container header nav .nav-label a:hover {
+  font-size: 17px;
+  color: #f9ba00;
+}
+.page-container .hero-wrapper img {
+  width: 100%;
+  height: auto;
+}
+.page-container .hero-wrapper span {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #0b0b0e;
+}
+.page-container .info-container {
+  text-align: center;
+}
+.page-container .info-container h2 {
+  margin-top: 35px;
+}
+.page-container .info-container p {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  margin: 30px;
+}
+.page-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 70px;
+  align-items: center;
+  justify-items: center;
+}
+.page-container .paragraph-wrapper {
+  text-align: center;
+}
+.page-container .paragraph-wrapper h3 {
+  margin-top: 35px;
+}
+.page-container .paragraph-wrapper p {
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.page-container .footer-container {
+  background-color: rgb(9, 27, 60);
+  padding: 20px;
+}
+.page-container .footer-container a {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+.page-container .footer-container a:hover {
+  font-size: 17px;
+  color: #f9ba00;
+}
+.page-container .footer-container footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.page-container .footer-container .footer-label {
+  margin: 0 85px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
