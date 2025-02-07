@@ -1,3 +1,8 @@
+:root {
+  --orange-lufthansa: #f9ba00;
+  --white-lufthansa: rgb(233, 233, 235);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,19 +30,19 @@
   margin: 0 85px;
 }
 .page-container header nav .nav-label i {
-  color: rgb(233, 233, 235);
+  color: var(--white-lufthansa);
 }
 .page-container header nav .nav-label i:hover {
   font-size: 17px;
-  color: #f9ba00;
+  color: var(--orange-lufthansa);
 }
 .page-container header nav .nav-label a {
   text-decoration: none;
-  color: rgb(233, 233, 235);
+  color: var(--white-lufthansa);
 }
 .page-container header nav .nav-label a:hover {
   font-size: 17px;
-  color: #f9ba00;
+  color: var(--orange-lufthansa);
 }
 .page-container .hero-wrapper img {
   width: 100%;
@@ -89,11 +94,11 @@
 }
 .page-container .footer-container a {
   text-decoration: none;
-  color: #dbdbdb;
+  color: var(--white-lufthansa);
 }
 .page-container .footer-container a:hover {
   font-size: 17px;
-  color: #f9ba00;
+  color: var(--orange-lufthansa);
 }
 .page-container .footer-container footer {
   display: flex;

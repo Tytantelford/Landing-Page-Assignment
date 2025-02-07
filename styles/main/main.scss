@@ -1,7 +1,13 @@
+:root {
+  --orange-lufthansa: #f9ba00;
+  --white-lufthansa: rgb(233, 233, 235);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
 .page-container {
   header {
     display: flex;
@@ -24,19 +30,19 @@
         cursor: pointer;
         margin: 0 85px;
         i {
-          color: rgb(233, 233, 235);
+          color: var(--white-lufthansa);
           &:hover {
             font-size: 17px;
-            color: #f9ba00;
+            color: var(--orange-lufthansa);
           }
         }
 
         a {
           text-decoration: none;
-          color: rgb(233, 233, 235);
+          color: var(--white-lufthansa);
           &:hover {
             font-size: 17px;
-            color: #f9ba00;
+            color: var(--orange-lufthansa);
           }
         }
       }
@@ -98,11 +104,11 @@
     padding: 20px;
     a {
       text-decoration: none;
-      color: #dbdbdb;
+      color: var(--white-lufthansa);
     }
     a:hover {
       font-size: 17px;
-      color: #f9ba00;
+      color: var(--orange-lufthansa);
     }
     footer {
       display: flex;
