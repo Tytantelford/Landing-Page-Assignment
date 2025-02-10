@@ -1,7 +1,5 @@
-:root {
-  --orange-lufthansa: #f9ba00;
-  --white-lufthansa: rgb(233, 233, 235);
-}
+$orange-lufthansa: #f9ba00;
+$white-lufthansa: rgb(233, 233, 235);
 
 * {
   margin: 0;
@@ -30,19 +28,19 @@
         cursor: pointer;
         margin: 0 85px;
         i {
-          color: var(--white-lufthansa);
+          color: $white-lufthansa;
           &:hover {
             font-size: 17px;
-            color: var(--orange-lufthansa);
+            color: $--orange-lufthansa;
           }
         }
 
         a {
           text-decoration: none;
-          color: var(--white-lufthansa);
+          color: $white-lufthansa;
           &:hover {
             font-size: 17px;
-            color: var(--orange-lufthansa);
+            color: $orange-lufthansa;
           }
         }
       }
@@ -71,6 +69,7 @@
     h2 {
       margin-top: 35px;
     }
+
     p {
       font-family: "Times New Roman", Times, serif;
       padding: 10px;
@@ -92,6 +91,7 @@
     h3 {
       margin-top: 35px;
     }
+
     p {
       font-family: "Times New Roman", Times, serif;
       padding: 20px;
@@ -102,23 +102,25 @@
   .footer-container {
     background-color: rgb(9, 27, 60);
     padding: 20px;
-    a {
-      text-decoration: none;
-      color: var(--white-lufthansa);
-    }
-    a:hover {
-      font-size: 17px;
-      color: var(--orange-lufthansa);
-    }
+
     footer {
       display: flex;
       justify-content: center;
       width: 100%;
-    }
 
-    .footer-label {
-      margin: 0 85px;
-      cursor: pointer;
+      .footer-label {
+        margin: 0 85px;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: $white-lufthansa;
+        }
+        &:hover {
+          font-size: 17px;
+          color: $orange-lufthansa;
+        }
+      }
     }
   }
 }
